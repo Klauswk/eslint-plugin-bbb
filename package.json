@@ -1,0 +1,28 @@
+{
+  "name": "eslint-plugin-bbb",
+  "version": "0.0.0",
+  "description": "An eslint plugin for bbb-HTML5 client",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "Klaus Klein",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha tests --recursive"
+  },
+  "dependencies": {
+    "jsx-ast-utils": "^2.0.0",
+    "requireindex": "~1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "~3.9.1",
+    "mocha": "^3.1.2",
+    "babel-eslint": "^7.2.3"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "ISC"
+}
