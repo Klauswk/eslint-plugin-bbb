@@ -1,15 +1,13 @@
 sudo: false
 language: node_js
+before_install:
+  - npm i -g makeshift && makeshift -r https://registry.npmjs.org
 node_js:
   - '8'
-  - '7'
-  - '6'
-  - '5'
-  - '4'
 deploy:
+  provider: npm
+  email: "klauswk1@gmail.com"
+  api_key: $NPM_TOKEN
   on: 
-    provider: npm
-    email: "klauswk1@gmail.com"
-    api_key: $NPM_TOKEN
     branch: master
     skip_cleanup: true
