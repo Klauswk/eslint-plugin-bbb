@@ -1,0 +1,15 @@
+sudo: false
+language: node_js
+node_js:
+  - '8'
+  - '7'
+  - '6'
+  - '5'
+  - '4'
+deploy:
+  on: 
+    provider: npm
+    email: "klauswk1@gmail.com"
+    api_key: $NPM_TOKEN
+    branch: master
+    skip_cleanup: true
