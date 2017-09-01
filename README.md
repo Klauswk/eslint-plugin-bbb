@@ -1,4 +1,6 @@
 [![Build Status](https://travis-ci.org/Klauswk/eslint-plugin-bbb.svg?branch=master)](https://travis-ci.org/Klauswk/eslint-plugin-bbb)
+[![NPM Version][npm-image]][npm-url]
+[![NPM Downloads][downloads-image]][downloads-url]
 
 # eslint-plugin-bbb
 
@@ -46,3 +48,8 @@ Then configure the rules you want to use under the rules section.
 ## Supported Rules
 
 * no-service-import-component
+
+[npm-image]: https://img.shields.io/npm/v/eslint-plugin-bbb.svg
+[npm-url]: https://npmjs.org/package/eslint-plugin-bbb
+[downloads-image]: https://img.shields.io/npm/dm/eslint-plugin-bbb.svg
+[downloads-url]: https://npmjs.org/package/eslint-plugin-bbb
