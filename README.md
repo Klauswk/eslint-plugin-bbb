@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/Klauswk/eslint-plugin-bbb.svg?branch=master)](https://travis-ci.org/Klauswk/eslint-plugin-bbb)
+
 # eslint-plugin-bbb
 
 An eslint plugin for bbb-HTML5 client
